@@ -10,7 +10,7 @@ interface Params {
 }
 
 // Generate metadata for dynamic product pages
-export async function generateMetadata({ params }: { params: Params }) {
+export async function generateMetadata({ params }: { params: any }) {
   const product = nikeProducts.find((prod) => prod.id === parseInt(params.id));
 
   if (!product) {
