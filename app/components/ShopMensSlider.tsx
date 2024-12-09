@@ -20,7 +20,7 @@ const ShopMensSlider = () => {
     dots: false,
     infinite: true,
     speed: 500,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000,
     slidesToShow: 2,
     slidesToScroll: 1,

@@ -8,15 +8,7 @@ export const nikeProducts = [
     price: "MRP : ₹ 10 795.00",
     imagesUrls: "/images/products/product-1.png",
   },
-  {
-    id: 2,
-    tags: "Just In",
-    title: "Nike Court Vision Low Next Nature",
-    description: "Men's Shoes",
-    color: "1 Colour",
-    price: "MRP : ₹ 4 995.00",
-    imagesUrls: "/images/products/product-2.png",
-  },
+  
   {
     id: 3,
     tags: "Just In",
@@ -25,16 +17,16 @@ export const nikeProducts = [
     color: "1 Colour",
     price: "MRP : ₹ 8 695.00",
     imagesUrls: "/images/products/product-3.png",
-  },
-  {
-    id: 4,
+  },{
+    id: 2,
     tags: "Just In",
-    title: "Nike Air Force 1 React",
+    title: "Nike Court Vision Low Next Nature",
     description: "Men's Shoes",
     color: "1 Colour",
-    price: "MRP : ₹ 13 295.00",
-    imagesUrls: "/images/products/product-4.png",
+    price: "MRP : ₹ 4 995.00",
+    imagesUrls: "/images/products/product-2.png",
   },
+  
   {
     id: 5,
     tags: "Promo Exclusion",
@@ -43,16 +35,16 @@ export const nikeProducts = [
     color: "1 Colour",
     price: "MRP : ₹ 11 895.00",
     imagesUrls: "/images/products/product-5.png",
-  },
-  {
-    id: 6,
+  },{
+    id: 4,
     tags: "Just In",
-    title: "Nike Standard Issue",
-    description: "Women's Basketball Jersey",
+    title: "Nike Air Force 1 React",
+    description: "Men's Shoes",
     color: "1 Colour",
-    price: "MRP : ₹ 2 895.00",
-    imagesUrls: "/images/products/product-6.png",
+    price: "MRP : ₹ 13 295.00",
+    imagesUrls: "/images/products/product-4.png",
   },
+  
   {
     id: 7,
     tags: "Promo Exclusion",
@@ -61,16 +53,16 @@ export const nikeProducts = [
     color: "1 Colour",
     price: "MRP : ₹ 9 695.00",
     imagesUrls: "/images/products/product-7.png",
-  },
-  {
-    id: 8,
-    tags: "Sustainable Materials",
-    title: "Nike Dri-FIT UV Hyverse",
-    description: "Men's Short Sleeve Graphic Fitness Top",
+  },{
+    id: 6,
+    tags: "Just In",
+    title: "Nike Standard Issue",
+    description: "Women's Basketball Jersey",
     color: "1 Colour",
-    price: "MRP : ₹ 2 495.00",
-    imagesUrls: "/images/products/product-8.png",
+    price: "MRP : ₹ 2 895.00",
+    imagesUrls: "/images/products/product-6.png",
   },
+ 
   {
     id: 9,
     tags: "Just In",
@@ -79,16 +71,16 @@ export const nikeProducts = [
     color: "1 Colour",
     price: "MRP : ₹ 5 695.00",
     imagesUrls: "/images/products/product-9.png",
-  },
-  {
-    id: 10,
-    tags: "Just In",
-    title: "Nike Dri-FIT Ready",
-    description: "Men's Short Sleeve Fitness Top",
-    color: "3 Colours",
+  }, {
+    id: 8,
+    tags: "Sustainable Materials",
+    title: "Nike Dri-FIT UV Hyverse",
+    description: "Men's Short Sleeve Graphic Fitness Top",
+    color: "1 Colour",
     price: "MRP : ₹ 2 495.00",
-    imagesUrls: "/images/products/product-10.png",
+    imagesUrls: "/images/products/product-8.png",
   },
+ 
   {
     id: 11,
     tags: "Just In",
@@ -97,16 +89,16 @@ export const nikeProducts = [
     color: "2 Colours",
     price: "MRP : ₹ 3 395.00",
     imagesUrls: "/images/products/product-11.png",
-  },
-  {
-    id: 12,
+  }, {
+    id: 10,
     tags: "Just In",
-    title: "Nike Air Force 1 LV8 3",
-    description: "Older Kids' Shoe",
-    color: "1 Colour",
-    price: "MRP : ₹ 7 495.00",
-    imagesUrls: "/images/products/product-12.png",
+    title: "Nike Dri-FIT Ready",
+    description: "Men's Short Sleeve Fitness Top",
+    color: "3 Colours",
+    price: "MRP : ₹ 2 495.00",
+    imagesUrls: "/images/products/product-10.png",
   },
+  
   {
     id: 13,
     tags: "Just In",
@@ -124,16 +116,16 @@ export const nikeProducts = [
     color: "2 Colours",
     price: "MRP : ₹ 8 195.00",
     imagesUrls: "/images/products/product-14.png",
-  },
-  {
-    id: 15,
+  },{
+    id: 12,
     tags: "Just In",
-    title: "Nike Pro Dri-FIT",
-    description: "Men's Tight-Fit Sleeveless Top",
+    title: "Nike Air Force 1 LV8 3",
+    description: "Older Kids' Shoe",
     color: "1 Colour",
-    price: "MRP : ₹ 1 495.00",
-    imagesUrls: "/images/products/product-15.png",
+    price: "MRP : ₹ 7 495.00",
+    imagesUrls: "/images/products/product-12.png",
   },
+ 
   {
     id: 16,
     tags: "Just In",
@@ -160,16 +152,16 @@ export const nikeProducts = [
     color: "1 Colour",
     price: "MRP : ₹ 1 695.00",
     imagesUrls: "/images/products/product-18.png",
-  },
-  {
-    id: 19,
+  }, {
+    id: 15,
     tags: "Just In",
-    title: "Nike Air Max SYSTM",
-    description: "Older Kids' Shoes",
+    title: "Nike Pro Dri-FIT",
+    description: "Men's Tight-Fit Sleeveless Top",
     color: "1 Colour",
-    price: "MRP : ₹ 6 495.00",
-    imagesUrls: "/images/products/product-19.png",
+    price: "MRP : ₹ 1 495.00",
+    imagesUrls: "/images/products/product-15.png",
   },
+  
   {
     id: 20,
     tags: "Just In",
@@ -187,16 +179,16 @@ export const nikeProducts = [
     color: "2 Colours",
     price: "MRP : ₹ 7 495.00",
     imagesUrls: "/images/products/product-21.png",
-  },
-  {
-    id: 22,
+  },{
+    id: 19,
     tags: "Just In",
-    title: "Nike Swoosh",
-    description: "Women's Medium support Padded Sports Bra Tank",
-    color: "2 Colours",
-    price: "MRP : ₹ 3 095.00",
-    imagesUrls: "/images/products/product-22.png",
+    title: "Nike Air Max SYSTM",
+    description: "Older Kids' Shoes",
+    color: "1 Colour",
+    price: "MRP : ₹ 6 495.00",
+    imagesUrls: "/images/products/product-19.png",
   },
+  
   {
     id: 23,
     tags: "Just In",
@@ -214,16 +206,16 @@ export const nikeProducts = [
     color: "2 Colours",
     price: "MRP : ₹ 3 495.00",
     imagesUrls: "/images/products/product-24.png",
-  },
-  {
-    id: 25,
+  },{
+    id: 22,
     tags: "Just In",
-    title: "Nike Dri-FIT Challenger",
-    description: "Men's 18cm (approx.) 2-in 1 Versatile Shorts",
-    color: "1 Colour",
-    price: "MRP : ₹ 2 495.00",
-    imagesUrls: "/images/products/product-25.png",
+    title: "Nike Swoosh",
+    description: "Women's Medium support Padded Sports Bra Tank",
+    color: "2 Colours",
+    price: "MRP : ₹ 3 095.00",
+    imagesUrls: "/images/products/product-22.png",
   },
+ 
   {
     id: 26,
     tags: "Just In",
@@ -250,6 +242,14 @@ export const nikeProducts = [
     color: "2 Colours",
     price: "MRP : ₹ 2 495.00",
     imagesUrls: "/images/products/product-28.png",
+  }, {
+    id: 25,
+    tags: "Just In",
+    title: "Nike Dri-FIT Challenger",
+    description: "Men's 18cm (approx.) 2-in 1 Versatile Shorts",
+    color: "1 Colour",
+    price: "MRP : ₹ 2 495.00",
+    imagesUrls: "/images/products/product-25.png",
   },
   {
     id: 29,

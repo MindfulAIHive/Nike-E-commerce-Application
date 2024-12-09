@@ -2,7 +2,7 @@
 import React from 'react';
 import { nikeProducts } from './Cards/data'; 
 import Card from './Cards/Card';
-import { Roboto } from 'next/font/google';
+
 const ProductList = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 font-Roboto lg:grid-cols-3 pb-10 border-b-2">
