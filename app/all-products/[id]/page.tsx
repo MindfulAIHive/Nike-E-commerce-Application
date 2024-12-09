@@ -5,9 +5,9 @@ import { notFound } from 'next/navigation';
 import addToCartIcon from "@public/images/icons/add-to-cart.svg";
 
 // Define correct type for params
-interface Params {
-  id: string;
-}
+// interface Params {
+//   id: string;
+// }
 
 // Generate metadata for dynamic product pages
 export async function generateMetadata({ params }: { params: any }) {
@@ -33,7 +33,7 @@ export async function generateStaticParams() {
 }
 
 // Main Product Page Component
-const ProductPage = ({ params }: { params: Params }) => {
+const ProductPage = ({ params }: { params: any }) => {
   const product = nikeProducts.find((prod) => prod.id === parseInt(params.id));
 
   if (!product) {
