@@ -42,7 +42,7 @@ export default function Home() {
           <ProductSlider/>
       </section>
       <BannerSection heading="Featured" imageUrl={featureBanner} imageAlt="Feature Banner" secondHeading="STEP INTO WHAT FEELS GOOD" para="Cause everyone should know the feeling of running in that perfect pair." buttonText="Find Your Shoe"/>
-      <section className="px-10">
+      <section className="px-10 ">
         <h2 className="font-bold">Gear Up</h2>
         <div className="grid grid-cols-12">
           <div className="col-span-12 md:col-span-6">
@@ -54,7 +54,7 @@ export default function Home() {
         </div>
       </section>
       <BannerSection heading="Don't Miss" imageUrl={dontMissBanner} imageAlt="Dont Miss Banner" secondHeading="FLIGHT ESSENTIALS" para="Your built-to-last, all-week wears—but with style only Jordan Brand can deliver." buttonText="Shop"/>
-      <section className="px-10">
+      <section className="px-10 font-Roboto ">
         <h2 className="mb-4 font-bold">The Essentials</h2>
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 md:col-span-4 m-auto relative">
@@ -79,15 +79,15 @@ export default function Home() {
       </section>
       <section className="py-10 px-10">
           <div className="max-w-screen-xl mx-auto px-4">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-0 lg:px-20">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 font-Roboto  gap-8 px-0 lg:px-20">
               {/* Icons */}
-              <div>
-                <h3 className="text-lg font-semibold mb-4">Icons</h3>
-                <ul className="space-y-2">
-                  <li><Link href="#" className="text-text-primary-gray">Air Force 1</Link></li>
-                  <li><Link href="#" className="text-text-primary-gray">Huarache</Link></li>
-                  <li><Link href="#" className="text-text-primary-gray">Air Max 90</Link></li>
-                  <li><Link href="#" className="text-text-primary-gray">Air Max 95</Link></li>
+              <div >
+                <h3 className="text-lg font-semibold font-Roboto hover:font mb-4">Icons</h3>
+                <ul className="space-y-2 font-Roboto ">
+                  <li><Link href="#" className="text-text-primary-gray hover:font-semibold">Air Force 1</Link></li>
+                  <li><Link href="#" className="text-text-primary-gray hover:font-semibold">Huarache</Link></li>
+                  <li><Link href="#" className="text-text-primary-gray hover:font-semibold">Air Max 90</Link></li>
+                  <li><Link href="#" className="text-text-primary-gray hover:font-semibold">Air Max 95</Link></li>
                 </ul>
               </div>
 
@@ -95,10 +95,10 @@ export default function Home() {
               <div>
                 <h3 className="text-lg font-semibold mb-4">Shoes</h3>
                 <ul className="space-y-2">
-                  <li><Link href="#" className="text-text-primary-gray">All Shoes</Link></li>
-                  <li><Link href="#" className="text-text-primary-gray">Custom Shoes</Link></li>
-                  <li><Link href="#" className="text-text-primary-gray">Jordan Shoes</Link></li>
-                  <li><Link href="#" className="text-text-primary-gray">Running Shoes</Link></li>
+                  <li><Link href="#" className="text-text-primary-gray hover:font-semibold">All Shoes</Link></li>
+                  <li><Link href="#" className="text-text-primary-gray hover:font-semibold">Custom Shoes</Link></li>
+                  <li><Link href="#" className="text-text-primary-gray hover:font-semibold">Jordan Shoes</Link></li>
+                  <li><Link href="#" className="text-text-primary-gray hover:font-semibold">Running Shoes</Link></li>
                 </ul>
               </div>
 
@@ -106,10 +106,10 @@ export default function Home() {
               <div>
                 <h3 className="text-lg font-semibold mb-4">Clothing</h3>
                 <ul className="space-y-2">
-                  <li><Link href="#" className="text-text-primary-gray">All Clothing</Link></li>
-                  <li><Link href="#" className="text-text-primary-gray">Modest Wear</Link></li>
-                  <li><Link href="#" className="text-text-primary-gray">Hoodies & Pullovers</Link></li>
-                  <li><Link href="#" className="text-text-primary-gray">Shirts & Tops</Link></li>
+                  <li><Link href="#" className="text-text-primary-gray hover:font-semibold">All Clothing</Link></li>
+                  <li><Link href="#" className="text-text-primary-gray hover:font-semibold">Modest Wear</Link></li>
+                  <li><Link href="#" className="text-text-primary-gray hover:font-semibold">Hoodies & Pullovers</Link></li>
+                  <li><Link href="#" className="text-text-primary-gray hover:font-semibold">Shirts & Tops</Link></li>
                 </ul>
               </div>
 
@@ -117,10 +117,10 @@ export default function Home() {
               <div>
                 <h3 className="text-lg font-semibold mb-4">Kids'</h3>
                 <ul className="space-y-2">
-                  <li><Link href="#" className="text-text-primary-gray">Infant & Toddler Shoes</Link></li>
-                  <li><Link href="#" className="text-text-primary-gray">Kids' Shoes</Link></li>
-                  <li><Link href="#" className="text-text-primary-gray">Kids' Jordan Shoes</Link></li>
-                  <li><Link href="#" className="text-text-primary-gray">Kids' Basketball Shoes</Link></li>
+                  <li><Link href="#" className="text-text-primary-gray hover:font-semibold">Infant & Toddler Shoes</Link></li>
+                  <li><Link href="#" className="text-text-primary-gray hover:font-semibold">Kids' Shoes</Link></li>
+                  <li><Link href="#" className="text-text-primary-gray hover:font-semibold">Kids' Jordan Shoes</Link></li>
+                  <li><Link href="#" className="text-text-primary-gray hover:font-semibold">Kids' Basketball Shoes</Link></li>
                 </ul>
               </div>
             </div>

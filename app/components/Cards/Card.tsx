@@ -28,7 +28,7 @@ const Card: React.FC<Product> = ({
       >
         <Image src={imagesUrls} alt={title} width={300} height={300} />
       <div className="py-4">
-        <h4 className="text-[#9E3500]">{tags}</h4>
+      
         <h2 className="font-semibold">{title}</h2>
         <p className="text-text-secondary-gray">{description}</p>
         <p className="text-text-secondary-gray">{color}</p>

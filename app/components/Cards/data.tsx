@@ -810,3 +810,42 @@ export const nikeProducts = [
     imagesUrls: "/images/products/product-90.png",
   },
 ];
+export const ladies=[
+  {
+    id: 1,
+    tags: "Sustainable Materials",
+    title: "Nike Dri-FIT ADV TechKnit Ultra",
+    description: "Men's Short Sleeves",
+    color: "2 Colours",
+    price: "MRP : ₹ 3 895.00",
+    imagesUrls: "/images/products/ladies-1.png",
+  },
+  {
+    id: 1,
+    tags: "Sustainable Mater,ials",
+    title: "Nike Dri-FIT challenger",
+    description: "Men's 18cm approx2-in 1 versatile shorts",
+    color: "2 Colours",
+    price: "MRP : ₹ 2 495.00",
+    imagesUrls: "/images/products/ladies-2.png",
+  },
+  {
+    id: 1,
+    tags: "Sustainable Mater,ials",
+    title: "Nike Dri-FIT ADV Run division",
+    description: "Women's Long Sleeves",
+    color: "2 Colours",
+    price: "MRP : ₹ 5 295.00",
+    imagesUrls: "/images/products/ladies-3.png",
+  },
+  {
+    id: 1,
+    tags: "Sustainable Mater,ials",
+    title: "Nike Fast",
+    description: "Women's Mid rise 7/8",
+    color: "2 Colours",
+    price: "MRP : ₹ 5 695.00",
+    imagesUrls: "/images/products/ladies-4.png",
+  },
+
+]

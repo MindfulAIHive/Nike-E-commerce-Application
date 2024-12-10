@@ -1,24 +1,24 @@
 "use client"
 import React, {useRef} from 'react';
 import Slider from "react-slick";
-import { nikeProducts } from './Cards/data'; 
+import { ladies,  } from './Cards/data'; 
 import arrowRightIcon from "@public/images/icons/right-arrow.svg";
 import arrowLeftIcon from "@public/images/icons/left-arrow.svg";
 import Card from './Cards/Card';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from 'next/image';
-import { Roboto } from 'next/font/google';
+
 const ShopMensSlider = () => {
     const sliderRef = useRef<Slider | null>(null);
 
-  const mensProducts = nikeProducts.filter((product) =>
+  const mensProducts = ladies.filter((product) =>
     product.description.toLowerCase().includes("men")
   );
 
   const settings = {
     dots: false,
-    infinite: true,
+    infinite: false,
     speed: 500,
     autoplay: false,
     autoplaySpeed: 2000,
@@ -51,10 +51,10 @@ const ShopMensSlider = () => {
     <div className="flex mb-4 font-Roboto items-center justify-end">
           <div className="flex items-center gap-4">
             <p>Shop Men's</p>
-            <div className="bg-[#F5F5F5] px-5 py-4 rounded-full cursor-pointer" onClick={() => sliderRef.current?.slickPrev()}>
+            <div className="bg-[#F5F5F5] px-5 py-4 rounded-full cursor-pointer" >
               <Image src={arrowLeftIcon} alt="Arrow Left"/>
             </div>
-            <div className="bg-[#E5E5E5] px-5 py-4 rounded-full cursor-pointer" onClick={() => sliderRef.current?.slickNext()}>
+            <div className="bg-[#E5E5E5] px-5 py-4 rounded-full cursor-pointer" >
               <Image src={arrowRightIcon} alt="Arrow Right"/>
             </div>
           </div>

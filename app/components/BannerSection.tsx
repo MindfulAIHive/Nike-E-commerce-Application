@@ -15,7 +15,7 @@ interface BannerSectionProps {
 const BannerSection: React.FC<BannerSectionProps> = ({heading, imageUrl, secondHeading, para, buttonText, imageAlt}) => {
   return (
     <section className="px-10 font-Roboto">
-      <h2 className="mb-4 font-bold">{heading}</h2>
+      <h2 className="mb-4 ">{heading}</h2>
       <Image src={imageUrl} alt={imageAlt}/>
       <div className="flex flex-col items-center py-10">
         <h2 className="text-5xl uppercase pt-2 text-center">{secondHeading}</h2>

@@ -9,8 +9,7 @@ import searchIcon from "@public/images/icons/search.svg";
 import menuIcon from "@public/images/icons/menu.svg";
 import crossIcon from "@public/images/icons/cross.svg";
 import Link from "next/link";
-import { Roboto } from "next/font/google";
-import Button from "./Button";
+
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,14 +21,14 @@ const Header = () => {
   return (
     <div>
       {/* Desktop Header */}
-      <div className="hidden font-Roboto lg:block ">
-        <div className="flex justify-between items-center px-10 bg-white">
+      <div className="hidden font-Roboto  lg:block ">
+        <div className="flex justify-between items-center px-10 bg-[#f5f5f5]">
           {/* Top Logo */}
           <Image src={topLogo} alt="Top Logo" />
 
           {/* Top Navigation */}
-          <ul className="flex space-x-6 py-3">
-            <li className="flex items-center border-r border-black pr-6">
+          <ul className="flex space-x-6 py-3 ">
+            <li className="flex items-center border-r hover:font-bold border-black pr-6">
               <Link href="/store" className="leading-[14px]">
                 Find a Store
               </Link>
@@ -57,10 +56,10 @@ const Header = () => {
           </Link>
           <ul className="flex space-x-6">
             <li>
-              <Link href="#" className="hover:font-bold">New & Featured</Link>
+              <Link href="/all-products" className=" hover:font-semibold">New & Featured</Link>
             </li>
             <li>
-              <Link href="/all-products" className="hover:font-bold">Men</Link>
+              <Link href="" className="hover:font-bold">Men</Link>
             </li>
             <li>
               <Link href="#" className="hover:font-bold">Women</Link>
