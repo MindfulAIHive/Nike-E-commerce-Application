@@ -1,0 +1,32 @@
+🌟 UI/UX Hackathon Practice Project: Mission Accomplished! 🌟
+
+Alhamdulillah, I have successfully completed the pixel-perfect, responsive UI/UX project inspired by the hackathon guidelines shared by our esteemed Dean of Faculty. This practice project, built using Next.js, CSS, and Tailwind CSS, was a fantastic opportunity to refine my skills and prepare for the upcoming hackathon.
+
+Hackathon Aim:
+
+Polish UI/UX design and development skills.
+Test our credibility in building responsive and pixel-perfect interfaces.
+🎯 Key Takeaways:
+
+Enhanced my ability to translate Figma designs into clean, responsive code.
+Gained valuable experience in working under a structured timeline, mimicking real hackathon conditions.
+Grateful for the guidance and encouragement from our faculty members.
+🚀 Check it out live:
+Live Deployment
+
+A heartfelt thank you to my teachers for their unwavering support and polite teaching approach. This initiative has truly boosted my confidence for the upcoming hackathon!
+
+#HackathonPreparation #UIUX #NextJS #TailwindCSS #LearningJourney #EcommerceDesign
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.figma.com/design/k28EtUgXHEtIpqZz9Zhv11/Full-E-Commerce-Website-UI-UX-Design-(Community)?node-id=1-3&node-type=canvas&t=yZRyHoNDilnE108O-0

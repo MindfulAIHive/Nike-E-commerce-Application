@@ -26,13 +26,13 @@ export default function Home() {
         <Image src={nikeBanner} alt="" />
         <div className="flex flex-col items-center py-10">
           <h3>First Look</h3>
-          <h2 className="text-5xl uppercase pt-2 text-center">Nike Air Max Pulse</h2>
+          <h2 className="text-[56px] uppercase pt-2 text-center font-Roboto font-">Nike Air Max Pulse</h2>
           <p className="w-full md:w-1/2 text-center py-6">
             Extreme comfort. Hyper durable. Max volume. Introducing the Air Max
             Pulse —designed to push you past your limits and help you go to the
             max.
           </p>
-          <div className='flex gap-2'>
+          <div className='flex gap-2'> 
               <Button text="Notify Me" classNames="rounded-full py-2"/>
               <Button text="Shop Air Max" classNames="rounded-full py-2"/>
           </div>
